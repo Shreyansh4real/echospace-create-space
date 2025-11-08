@@ -20,7 +20,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="py-24 px-4 bg-card/30 backdrop-blur-sm">
+    <section id="contact" className="py-24 px-4 bg-card/30 backdrop-blur-sm">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-neon-cyan via-neon-magenta to-neon-yellow bg-clip-text text-transparent">

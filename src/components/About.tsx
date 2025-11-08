@@ -47,7 +47,7 @@ export const About = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-24 px-4 bg-background relative overflow-hidden">
+    <section id="about" ref={sectionRef} className="py-24 px-4 bg-background relative overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon-yellow/5 rounded-full blur-3xl" />
       
       <div className="container mx-auto max-w-4xl relative z-10">
